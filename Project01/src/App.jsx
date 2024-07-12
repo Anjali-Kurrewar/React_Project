@@ -1,10 +1,13 @@
 import React from 'react'
-import background from './components/background'
+import Thebg from './components/Thebg'
+import Thefg from './components/Thefg'
+
 
 function App() {
   return (
     <div className='relative w-full h-screen bg-zinc-800'>
-      <background />
+      <Thebg />
+      <Thefg />
     </div>
   )
 }
